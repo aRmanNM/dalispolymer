@@ -1,29 +1,45 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("/font/Yekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
 html,
 body {
-    background-color: #f7f7f7;
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  margin: 0;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-family: "Yekan";
 }
 
-.logo {
-    width: 100%;
-    max-width: 600px;
+main {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    direction: rtl;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
-.fa {
-    color: black;
-    margin: 10px;
+button {
+  font-family: "Yekan";
+}
+
+img {
+  width: 100%;
+  max-width: 700px;
 }
