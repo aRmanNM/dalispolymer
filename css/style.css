@@ -2603,7 +2603,8 @@ body.is-covered #wrapper {
 #header .avatar img {
   /* border-radius: 100%; */
   display: block;
-  width: 40em;
+  max-width: 780;
+  width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
