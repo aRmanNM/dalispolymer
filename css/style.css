@@ -2326,7 +2326,7 @@ input[type="button"].special,
 button.special,
 .button.special {
   background-color: #d8daf2;
-  color: !important;
+  /* color: !important; */
 }
 
 input[type="submit"].special:hover,
@@ -2385,7 +2385,7 @@ button:disabled,
   -ms-flex-direction: row;
   flex-direction: row;
   position: relative;
-  margin: 0 0 2em -2em;
+  /* margin: 0 0 2em -2em; */
 }
 
 .thumbnails a {
@@ -2432,7 +2432,7 @@ button:disabled,
   -ms-flex-direction: column;
   flex-direction: column;
   width: calc(100% / 3);
-  padding-right: 2em;
+  padding: 1em;
 }
 
 .thumbnails > div > :last-child {
@@ -2442,7 +2442,7 @@ button:disabled,
 @media screen and (max-width: 1280px) {
 
   .thumbnails {
-    margin: 0 0 2em -1.5em;
+    margin: 0;
   }
 
   .thumbnails a {
@@ -2461,12 +2461,17 @@ button:disabled,
     font-size: 0.8em;
   }
 
+  .thumbnails > div {
+    padding: 0.5em;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
 
   .thumbnails {
     display: block;
+    margin: 0;
   }
 
   .thumbnails a {
@@ -2476,6 +2481,7 @@ button:disabled,
   .thumbnails > div {
     display: block;
     width: 100%;
+    padding: 0;
   }
 
   .thumbnails > div:last-child > :last-child {
